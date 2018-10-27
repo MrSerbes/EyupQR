@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lytResult"
+        tools:context="com.qrCode.ResultActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View android:id="@+id/yeni_islem"
+                android:background="@color/yeni_islem_back_color"
+                android:shape="rectangle"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="482dp"
+                android:layout_width="match_parent"
+                android:layout_height="81dp" />
+
+            <ImageView android:id="@+id/viewRectangle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="65dp"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                />
+
+            <TextView
+                android:textSize="22sp"
+                android:textColor="@color/bilet_font_color"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="511dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yeni_islem"
+                />
+
+            <TextView android:id="@+id/txtStatus"
+                android:fontFamily="RobotoSlab-Regular"
+                android:textSize="18sp"
+                android:textColor="@color/bilet_font_color"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="95dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView android:id="@+id/forma_1"
+                android:src="@drawable/squares53"
+                android:shape="rectangle"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="494dp"
+                android:layout_width="59dp"
+                android:layout_height="59dp" />
+
+            <ImageView android:id="@+id/forma_1_1"
+                android:src="@drawable/fast44"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="503dp"
+                android:layout_width="43dp"
+                android:layout_height="41dp" />
+
+            <ImageView android:id="@+id/imgAlertIcon"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="89dp"
+                android:layout_width="38dp"
+                android:layout_height="39dp" />
+
+
+            <LinearLayout android:id="@+id/lytInformation"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView android:id="@+id/txtName"
+                    android:textSize="18sp"
+                    android:textColor="@color/bilet_font_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:background="@drawable/cizgi"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="3dp" />
+
+                <TextView android:id="@+id/txtIdentity"
+                    android:textSize="18sp"
+                    android:textColor="@color/bilet_font_color"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <View
+                    android:background="@drawable/cizgi"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView android:id="@+id/txtEvent"
+                    android:textSize="18sp"
+                    android:textColor="@color/bilet_font_color"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:background="@drawable/cizgi"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView android:id="@+id/txtTicket"
+                    android:fontFamily="RobotoSlab-Regular"
+                    android:textSize="18sp"
+                    android:textColor="@color/bilet_font_color"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <View
+                    android:background="@drawable/cizgi"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView android:id="@+id/txtSeat"
+                    android:textSize="18sp"
+                    android:textColor="@color/bilet_font_color"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:background="@color/yeni_islem_back_color"
+                android:paddingLeft="10dp"
+                android:text="@string/etkinlik_don"
+                android:drawableLeft="@mipmap/arrow"
+                android:clickable="true"
+                android:onClick="onClickBack"
+                android:id="@+id/button" />
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/bilet_bulunamadi_kutu_back_color"
+                    android:layout_weight="1"
+                    android:onClick="onExit"
+                    android:layout_width="wrap_content"
+                    android:clickable="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/exit" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>

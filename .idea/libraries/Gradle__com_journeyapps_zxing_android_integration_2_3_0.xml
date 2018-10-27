@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.journeyapps:zxing-android-integration-2.3.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/abbeba5504db969ed7d1e0d8b183cc82494035fe/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/abbeba5504db969ed7d1e0d8b183cc82494035fe/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-integration/2.3.0/12f67b453750dbdf55f6d8cb72cba833a5b2c8f9/zxing-android-integration-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

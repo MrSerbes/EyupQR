@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Eyüp Belediyesi</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- bilet-bulunamad strings -->
+    <string name="ek_img_content">PSD Image</string>
+    <string name="yeni_islem">Yeni İşlem</string>
+    <string name="bilet_bulunamadi">Bilet Bulunamadı</string>
+    <string name="bilet_onaylandi">Bilet Onaylandı</string>
+    <string name="daha_once">Daha Önce Giriş Yapıldı</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="etkinlik_don">Etkinlik Seçimine Dön</string>
+</resources>

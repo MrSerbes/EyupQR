@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qrCode.qrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@color/bilet_bulundu_kutu_back_color"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:onClick="onRefresh"
+            android:padding="8dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/refresh"
+            tools:ignore="RtlCompat" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#01a99c">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Bugünün Etkinlikleri"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_marginLeft="2dp"
+            android:background="@color/bilet_bulunamadi_kutu_back_color"
+            android:layout_weight="1"
+            android:onClick="onExit"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:padding="8dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/exit" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lytEvents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

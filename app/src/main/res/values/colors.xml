@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bilet_bulunamadi_back_color">#910000</color>
+	<color name="bilet_bulunamadi_kutu_back_color">#D60025</color>
+	<color name="bilet_bulundu_back_color">#61C544</color>
+	<color name="bilet_bulundu_kutu_back_color">#61E53A</color>
+	<color name="tekrar_giris_back_color">#FFC100</color>
+	<color name="tekrar_giris_kutu_back_color">#FFD900</color>
+	<color name="yeni_islem_back_color">#009EC8</color>
+	<color name="bilet_font_color">#000000</color>
+	<color name="forma_1_color">#035E8A</color>
+	<color name="cizgi">#5B5B5B</color>
+</resources>

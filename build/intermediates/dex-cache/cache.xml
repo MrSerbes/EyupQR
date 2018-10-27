@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.0_6af26e728c849f7be8d0d289a7ba1f22c3b24a66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\bdfc6bfaad7cdabd24c007aba53be77e0414a0ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b5afa40b0852fd8f0c3709a0a2d83089e714ec5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_433ae8b8cab8ebcfa51fca99e17744cd6bce0d3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_0ec3737ce1fc3a920d363e6433164d48383aac89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\bdfc6bfaad7cdabd24c007aba53be77e0414a0ae\output\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_874d79e18e3a296d9f7a4c3bb59341ab3f3eb5bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb4f7bb25a06a1ba20a9ead387dae16835258a87">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_157d773e137e0107d87d4bbd896395e0eeed5a37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\abbeba5504db969ed7d1e0d8b183cc82494035fe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bca1d3229113cccbb9ca38c1d2e6d51be318da9e">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae4f4b3e9b6b16d2c5403c78c28158370dd0cc15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\fad46f3819661b0f5a852dc26b7013c109bd5574\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de1b7dab5e2d8daa1337d40cb200b2e6c2938a79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\238053ad6e99b3a16167f0ca694f1fcc1ffa37f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a585d93c237386b69c7418a16e0ba0ed931d2c27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\emre_\.android\build-cache\d31c13635e205be4f9a6668152c9a37049584eef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64380fc4876a34f3f97cc7e59ef3182543624231">
+        <dex dex="D:\Yedek SSD\Usb Yedek\EyupQR\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4182a28c0e49144d1982382a3b859d8f1ad35e6a\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+
+<!-- forma_1_2 from your PSD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval" >
+	<solid android:color="@color/accent_material_light" />
+</shape>
+
